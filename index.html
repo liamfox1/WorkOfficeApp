@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>jQuery Mobile Example</title>
+		<meta charset="ISO-8859-1">
+		<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="css/jquery.mobile-1.2.0.min.css" />
+<!--		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" /> -->
+		<script src="js/jquery-1.8.2.min.js"></script>
+		<script src="js/jquery.mobile-1.2.0.min.js"></script>
+
+		<style type="text/css">
+		#logo {
+			align: center;
+			margin: 10px;
+			text-align: center;
+		}
+		</style>
+	</head>
+	<body>
+		<div data-role="page" id="home">
+			<div data-role="header">
+				<h1>Office Locator</h1>
+			</div>
+			<!-- /header -->
+			<div data-role="content" id="logo">
+				<img alt="Accenture" src="Flags/accenture_logo.png">
+				<ul data-role="listview" data-inset="true" data-filter="true">
+					<li><a href="#London">London</a></li>
+					<li><a href="#Riga">Riga</a></li>
+					<li><a href="#Helsinki">Helsinki</a></li>
+					<li><a href="#Tokyo">Tokyo</a></li>
+					<li><a href="#Bangalore">Bangalore</a></li>
+					<li><a href="JQ_Mobile_Office.html">New York</a></li>
+				</ul>
+			</div>
+			<!-- /content -->
+		</div>
+		<!-- /page -->
+		<div data-role="page" id="London">
+			<div data-role="header">
+				<h1>London</h1>
+				<a href="#home" data-role="button" data-rel="back">Back</a>
+			</div>
+			<!-- /header -->
+			<div data-role="content" id="logo">
+				<img id="logo" alt="UK" src="Flags/Flag_UK.gif">
+				<p>123 Fenchurch Street</p>
+				<p>London EC2M 3UR</p>
+				<p>United Kingdom</p>
+			</div>
+			<!-- /content -->
+		</div>
+		<!-- /page -->
+		<div data-role="page" id="Riga">
+			<div data-role="header">
+				<h1>Riga</h1>
+				<a href="#home" data-role="button" data-rel="back">Back</a>
+			</div>
+			<!-- /header -->
+			<div data-role="content" id="logo">
+				<img id="logo" alt="Latvia" src="Flags/Flag_Latvia.gif">
+				<p>Brivibas gatve 214</p>
+				<p>Riga, LV-1039</p>
+				<p>Latvia</p>
+			</div>
+			<!-- /content -->
+		</div>
+		<!-- /page -->
+		<div data-role="page" id="Helsinki">
+			<div data-role="header">
+				<h1>Helsinki</h1>
+				<a href="#home" data-role="button" data-rel="back">Back</a>
+			</div>
+			<!-- /header -->
+			<div data-role="content" id="logo">
+				<img id="logo" alt="Finland" src="Flags/Flag_Finland.gif">
+				<p>It�merenkatu 1</p>
+				<p>00180 Helsinki</p>
+				<p>Finland</p>
+			</div>
+			<!-- /content -->
+		</div>
+		<!-- /page -->
+		<div data-role="page" id="Tokyo">
+			<div data-role="header">
+				<h1>Tokyo</h1>
+				<a href="#home" data-role="button" data-rel="back">Back</a>
+			</div>
+			<!-- /header -->
+			<div data-role="content" id="logo">
+				<img id="logo" alt="Japan" src="Flags/Flag_Japan.gif">
+				<p>Akasaka Intercity (13F, 14F), 1-11-44 Akasaka, Minato-ku</p>
+				<p>Tokyo 107-8672</p>
+				<p>Japan</p>
+			</div>
+			<!-- /content -->
+		</div>
+		<!-- /page -->
+		<div data-role="page" id="Bangalore">
+			<div data-role="header">
+				<h1>Bangalore</h1>
+				<a href="#home" data-role="button" data-rel="back">Back</a>
+			</div>
+			<!-- /header -->
+			<div data-role="content" id="logo">
+				<img id="logo" alt="India" src="Flags/Flag_India.gif">
+				<p>Pritech Park SEZ, Block 7, Outer Ring Road, Bellandur Village, Varthur Hobli</p>
+				<p>Bangalore - 560103</p>
+				<p>India</p>
+			</div>
+			<!-- /content -->
+		</div>
+		<!-- /page -->
+	</body>
+</html>
